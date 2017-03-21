@@ -1,0 +1,5 @@
+.idea/
+link_to_maps_before.txt
+node_modules/
+typings/
+package.json

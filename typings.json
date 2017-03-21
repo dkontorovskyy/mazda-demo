@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160723033700"
+  },
+  "devDependencies": {},
+  "ambientDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#366b936e62a6244a15f011e0ee0559b903d1dd65",
+    "restify": "github:DefinitelyTyped/DefinitelyTyped/restify/restify.d.ts#7f2626d4e55490e52dd95bffa178c009ebaadf15"
+  },
+  "globalDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504",
+    "node": "registry:dt/node#7.0.0+20170310052549",
+    "request": "registry:dt/request#0.0.0+20160726020908",
+    "restify": "registry:dt/restify#2.0.0+20160726153409"
+  }
+}
