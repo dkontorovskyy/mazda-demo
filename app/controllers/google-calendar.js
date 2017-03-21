@@ -10,7 +10,7 @@ class GoogleCalendarWrapper {
             path: '/calendar/v3/calendars/lentech.mazda@gmail.com/events',
             headers: {
                 'content-type': 'application/json',
-                'Authorization': 'Bearer ya29.GlwVBDjtFJHNKsE3I5lkiGpPZCluYLKBi4hU-qyOGghkfWzfrTMhqW7FqmsCwdR6HiCvYzmiC-9H9K-D2GqQem2GP7mJfrIBkGjj-9cDEXONQKhFboCEtEAcuGgXzQ'
+                'Authorization': 'Bearer ya29.GlsVBC07ZDiJM8J51vrQnnkwizn0okCKI02OERZYZrp9MgTef_XCnn0RRk6R16pvzSiqtPpa1i-kYmWSRIFZa-r-CK0Fz4fbjt6gMrfUlrZoEcTPVPlexAUe5WBO'
             }
         };
         return http_wrapper_1.HttpWrapper.get(options).then(({ items }) => {

@@ -23,7 +23,7 @@ export class MazdaDemo {
             return googleMaps.getCoordinateByText(locationForGoogleSearch);
         }).then(({results}) => {
             finalEventLocation.lat = results[0].geometry.location.lat;
-            finalEventLocation.lon = results[0].geometry.location.lon;
+            finalEventLocation.lon = results[0].geometry.location.lng;
 
             return googleMaps.getPlacesNearby(yourLocation, req.params.keyword)
         }).then(({results}) => {

@@ -1,0 +1,26 @@
+{
+  "name": "mazda-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js"
+  },
+  "dependencies": {
+    "form-data": "^2.1.2",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^18.0.0",
+    "request": "^2.73.0",
+    "restify": "^4.1.0",
+    "typescript": "2.2.0"
+  },
+  "devDependencies": {
+    "@types/gapi": "0.0.31",
+    "@types/node": "^7.0.8",
+    "es6-shim": "^0.35.3",
+    "typescript": "2.2.0"
+  },
+  "author": "LENTECH",
+  "license": "ISC"
+}
